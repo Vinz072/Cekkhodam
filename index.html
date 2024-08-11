@@ -80,8 +80,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="title">Cek Khodam Salim Faalih
-        </div>
+        <div class="title">Cek Khodam</div>
 
         <!-- Input untuk nama pengguna -->
         <div class="input-container">
@@ -98,10 +97,56 @@
         // Fungsi untuk menghasilkan hasil acak dengan nama pengguna
         function generateRandomResult() {
             const results = [
-                "Salim mendampingi Anda",
-                "Heru mendampingi Anda",
-                "Galang mendampingi Anda",
-                "GURU BK mendampingi Anda"
+                "Khodam Naga Raja",
+                "Khodam Macan Putih",
+                "Khodam Harimau Siluman",
+                "Khodam Singa Kembar",
+                "Khodam Nyi Roro Kidul",
+                "Khodam Dewi Sri",
+                "Khodam Kanjeng Ratu Kidul",
+                "Khodam Sabdo Palon",
+                "Khodam Semar",
+                "Khodam Garuda",
+                "Khodam Bima",
+                "Khodam Hanoman",
+                "Khodam Kuda Sembrani",
+                "Khodam Keris Mpu Gandring",
+                "Khodam Macan Loreng",
+                "Khodam Lembu Suro",
+                "Khodam Raden Wijaya",
+                "Khodam Sultan Agung",
+                "Khodam Pangeran Diponegoro",
+                "Khodam Nyai Blorong",
+                "Khodam Ratu Laut Selatan",
+                "Khodam Sunan Kalijaga",
+                "Khodam Sunan Gunung Jati",
+                "Khodam Sunan Giri",
+                "Khodam Sunan Ampel",
+                "Khodam Sunan Muria",
+                "Khodam Syeikh Siti Jenar",
+                "Khodam Roro Jonggrang",
+                "Khodam Joko Tingkir",
+                "Khodam Prabu Siliwangi",
+                "Khodam Arya Penangsang",
+                "Khodam Gajah Mada",
+                "Khodam Ratu Tribhuwana",
+                "Khodam Dewi Kunti",
+                "Khodam Jayabaya",
+                "Khodam Ken Arok",
+                "Khodam Tunggul Ametung",
+                "Khodam Sriwijaya",
+                "Khodam Ken Dedes",
+                "Khodam Airlangga",
+                "Khodam Tunggul Wulung",
+                "Khodam Jaya Baya",
+                "Khodam Anoman",
+                "Khodam Pandu Dewanata",
+                "Khodam Gatotkaca",
+                "Khodam Wisanggeni",
+                "Khodam Damarwulan",
+                "Khodam Dewi Lanjar",
+                "Khodam Raja Singa",
+                "Khodam Prabu Angling Dharma"
             ];
 
             // Ambil nama dari input
@@ -115,7 +160,7 @@
 
             // Pilih hasil acak
             const randomIndex = Math.floor(Math.random() * results.length);
-            const resultText = `${username}, ${results[randomIndex]}`;
+            const resultText = `${username}, ${results[randomIndex]} mendampingi Anda.`;
 
             // Tampilkan hasil
             document.getElementById("result").textContent = resultText;
